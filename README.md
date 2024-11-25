@@ -74,10 +74,14 @@ _Extremely influencial as a measurement. Currently a measure for an orgs capabil
 * Change Failure Rate (the ratio of deployments to production that leads to errors and successful deployments).
 * _Operational Excellence / Resilience_ (added 2019)
  
-#### State of DevOps Report
+#### DORA and the State of DevOps Report
  
-* [For 2021](https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report)
- 
+* [DORA.dev](https://dora.dev/publications/)
+* [2024](https://dora.dev/research/2024/dora-report/)
+* [2023](https://dora.dev/research/2023/dora-report/)
+* [2022](https://dora.dev/research/2022/dora-report/)
+* [2021](https://dora.dev/research/2021/dora-report/)
+  
 #### DevSecOps
 - James Wickett [DryRun Security](https://www.dryrun.security/)
 - Rudgged DevOps Justin Cormack [IAmTheCalvary](https://iamthecavalry.org/)
