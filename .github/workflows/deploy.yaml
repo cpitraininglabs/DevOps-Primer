@@ -20,13 +20,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install mkdocs mkdocs-material
-
-      - name: Checkout README 
-        run: actions/setup-python@v4
-
-      - name: Copy Repo 
-        run: git clone --depth 1 --filter=blob:none --sparse https://github.com/cpitraininglabs/DevOps-Primer .
-
+     
       - name: Build MkDocs Site
         run: mkdocs build
 
@@ -34,4 +28,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: 1  site
+          publish_dir: site
