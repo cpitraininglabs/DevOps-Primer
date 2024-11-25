@@ -1,0 +1,37 @@
+name: Deploy MkDocs Site
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install mkdocs mkdocs-material
+
+      - name: Checkout README 
+        run: actions/setup-python@v4
+
+      - name: Copy Repo 
+        run: git clone --depth 1 --filter=blob:none --sparse https://github.com/cpitraininglabs/DevOps-Primer .
+
+      - name: Build MkDocs Site
+        run: mkdocs build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: 1  site

@@ -1,0 +1,28 @@
+site_name: DevOps-Primer 
+site_author: Michael Colletti 
+copyright: Creative Possibilities Inc. 2025
+remote_name: 
+site_description: DevOps Concepts and History References Repo
+repo_url: https://github.com/cpitraininglabs/DevOps-Primer
+repo_name: DevOps-Primer
+edit_uri: '?query=/docs'
+
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+        - json
+        - python
+    locale: en
+#    custom_dir: custom
+    nav_style: dark
+#    color_scheme: 
+#    static_templates:
+#        - sitemap.html
+    include_sidebar: true
+nav:
+  - Home: README.md
+#  - Docs: docs.md
+#  - Project: project.md
