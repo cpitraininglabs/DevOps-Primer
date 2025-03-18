@@ -60,11 +60,11 @@ _The first time I heard Adam Jacob speak at Velocity 2011, I was struck by how o
 * Software Defined Talk
  
 #### DORA, Dr. Foresgren, Jez Humble and Accelerate
-* DORA](https://www.devops-research.com/research.html) DevOps Data and Metrics singularity [Dr. Nicole Forsgren](https://nicolefv.com/) @nicolefv
+* [DORA](https://www.devops-research.com/research.html) DevOps Data singularity [Dr. Nicole Forsgren](https://nicolefv.com/) @nicolefv
 * [Accelerate](https://learning.oreilly.com/library/view/accelerate/9781457191435/)
 * Jez Humble Continuous Integration/Continuous Delivery (also DORA and Accelerate) [Humble/Farley](https://learning.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/)
  
-_Extremely influencial as a measurement. Currently a measure for an orgs capabilities. There are now 5 current metrics.
+_Extremely influencial as a measurement. Currently a measure for an orgs capabilities. There were 5 metrics with operational excellence being one, however this metric seems to have been scaled back and disappeared. Operational Excellence is key to sucess so there is more for me to understand in these measurements._
  
 #### The Five Key DORA Metrics
  
